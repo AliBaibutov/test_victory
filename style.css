@@ -1,0 +1,231 @@
+@font-face {
+  font-family: "Manrope-Bold";
+  src: url(./fonts/Manrope-Bold.ttf);
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Manrope-ExtraBold";
+  src: url(./fonts/Manrope-ExtraBold.ttf);
+  font-style: normal;
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: "Manrope-ExtraLight";
+  src: url(./fonts/Manrope-ExtraLight.ttf);
+  font-style: normal;
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "Manrope-Light";
+  src: url(./fonts/Manrope-Light.ttf);
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Manrope-Medium";
+  src: url(./fonts/Manrope-Medium.ttf);
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Manrope-Regular";
+  src: url(./fonts/Manrope-Regular.ttf);
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Lonely Armadillo";
+  src: url(./fonts/LonelyArmadillo-Bold.otf);
+  font-style: normal;
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Manrope-SemiBold";
+  src: url(./fonts/Manrope-SemiBold.ttf);
+  font-style: normal;
+  font-weight: 600;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+button {
+  color: inherit;
+  font-size: inherit;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  padding: 0;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #3f3f3f;
+}
+
+.container {
+  max-width: 1160px;
+  margin: 0 auto;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+}
+
+.logo__icon {
+  font-family: "Lonely Armadillo", sans-serif;
+  font-size: 45px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.logo__icon span {
+  color: #e21f4d;
+}
+
+.logo__bar {
+  width: 1px;
+  height: 26px;
+  background-color: #3f3f3f33;
+}
+
+.logo__text {
+  font-size: 14px;
+  max-width: 177px;
+  line-height: 19.12px;
+}
+
+.address {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.address__map {
+  position: relative;
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  box-shadow: 0px 14px 54px rgba(0, 0, 0, 0.08);
+}
+
+.address__map img {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+}
+
+.address__text {
+  font-size: 14px;
+  max-width: 115px;
+  line-height: 19.12px;
+}
+
+.phone {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 233px;
+  height: 56px;
+  background-color: #ffffff;
+  border-radius: 637px;
+  box-shadow: 0px 14px 54px rgba(0, 0, 0, 0.08);
+}
+
+.phone__icon {
+  position: absolute;
+  left: 13px;
+  position: relative;
+  width: 31px;
+  height: 31px;
+  border-radius: 50%;
+  background-color: #e21f4d;
+}
+
+.phone__icon img {
+  position: absolute;
+  top: 9.5px;
+  left: 9px;
+  width: 13px;
+  height: 13px;
+  color: white;
+}
+
+.phone__info {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 52px;
+  margin-top: 6px;
+}
+
+.phone__number {
+  font-weight: 300;
+  font-size: 20px;
+  color: #818181;
+}
+
+.phone__number span {
+  font-weight: 700;
+  color: #e21f4d;
+}
+
+.phone__text {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 6px;
+}
+
+.phone__circle {
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background-color: #79bc6e;
+}
+
+.phone__text-info {
+  font-weight: 500px;
+  font-size: 10px;
+  line-height: 13.66px;
+  color: #818181;
+}
